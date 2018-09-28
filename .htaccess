@@ -1,0 +1,9 @@
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteRule ^somestring ./ [L,R]
+
+Redirect /surffreely.html /selection.html
+
+Redirect /forums.html /forum.html
+
+DirectoryIndex index.html
