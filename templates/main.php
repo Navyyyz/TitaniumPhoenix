@@ -137,7 +137,7 @@ function showPage() {
 	
 	<!-- I wouldn't touch this part -->
 	
-		<form action="index.php" method="post" style="margin-bottom:0;">
+		<form action="index.php" method="post" style="margin-top:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" value="Go" />
 		</form>
@@ -151,7 +151,7 @@ function showPage() {
 	</div>
 	
 </div>
-	<div style="text-align:center; " class="w3-animate-zoom">
+	<div style="text-align:center; " class="w3-animate-bottom">
 		<h4 style="color:blue;">Websites that can be unblocked include the following : </h2>
 		<h3 style="color:green;">Youtube (Some videos may not play due to ciphering, please help if you can)</h3>
 		<h3 style="color:green;">Reddit (use old.reddit.com)</h3>
