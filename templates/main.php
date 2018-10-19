@@ -114,7 +114,7 @@ function showPage() {
 
 
 
-<div id="container" class="w3-animate-zoom">
+<div id="container" style="text-align:center;" class="w3-animate-zoom" >
 
 
 <a href="/index.html" class="button1">Go Home</a>
@@ -151,7 +151,7 @@ function showPage() {
 	</div>
 	
 </div>
-	<div style="text-align:center;">
+	<div style="text-align:center; " class="w3-animate-zoom">
 		<h4 style="color:blue;">Websites that can be unblocked include the following : </h2>
 		<h3 style="color:green;">Youtube (Some videos may not play due to ciphering, please help if you can)</h3>
 		<h3 style="color:green;">Reddit (use old.reddit.com)</h3>
