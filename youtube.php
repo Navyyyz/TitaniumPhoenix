@@ -276,7 +276,7 @@ if (isset($_POST["miniProxyFormAction"])) {
 }
 if (empty($url)) {
     if (empty($startURL)) {
-      die("<html><head><title>miniProxy</title></head><body><h1>Welcome to miniProxy!</h1>miniProxy can be directly invoked like this: <a href=\"" . PROXY_PREFIX . $landingExampleURL . "\">" . PROXY_PREFIX . $landingExampleURL . "</a><br /><br />Or, you can simply enter a URL below:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Proxy It!\" /></form></body></html>");
+      die("<html><head><title>miniProxy</title></head><body><h1>TitaniumNetwork Youtube Proxy</h1><br /><br />Enter a YouTube video URL below:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Go!\" /></form></body></html>");
     } else {
       $url = $startURL;
     }
@@ -287,7 +287,7 @@ if (empty($url)) {
     $url = substr_replace($url, "://", $pos, strlen(":/"));
 }
 $scheme = parse_url($url, PHP_URL_SCHEME);
-if (empty($scheme)) {
+if (empty($scheme)) {<a class="btn btn-outline-white waves-effect waves-light" href="index.php">Local Proxy (working)</a><body
   //Assume that any supplied URLs starting with // are HTTP URLs.
   if (strpos($url, "//") === 0) {
     $url = "http:" . $url;
