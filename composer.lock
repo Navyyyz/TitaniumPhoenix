@@ -4,41 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26211f359c2e7acb2ff6c2563cfd6b07",
+    "content-hash": "995b52e5ffe23f80a6cb4aae332f4324",
     "packages": [
-        {
-            "name": "athlon1600/php-proxy-plugin-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Athlon1600/php-proxy-plugin-bundle.git",
-                "reference": "6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Athlon1600/php-proxy-plugin-bundle/zipball/6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193",
-                "reference": "6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193",
-                "shasum": ""
-            },
-            "require": {
-                "athlon1600/youtube-downloader": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Proxy\\Plugin\\": "src/"
-                },
-                "files": [
-                    "src/utils.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A collection of useful plugins to be used with php-proxy",
-            "time": "2018-04-01T19:18:27+00:00"
-        },
         {
             "name": "athlon1600/youtube-downloader",
             "version": "v1.0.1",
@@ -109,6 +76,32 @@
                 "web proxy"
             ],
             "time": "2018-05-04T18:09:34+00:00"
+        },
+        {
+            "name": "shirtjs/php-proxy-plugin-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtjs/php-proxy-plugin-bundle",
+                "reference": "012fb4f462def250fb6b37e66472ad0943e465cf"
+            },
+            "require": {
+                "athlon1600/youtube-downloader": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Proxy\\Plugin\\": "src/"
+                },
+                "files": [
+                    "src/utils.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A collection of useful plugins to be used with php-proxy",
+            "time": "2018-10-30T01:55:56+00:00"
         }
     ],
     "packages-dev": [],
@@ -116,10 +109,12 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "shirtjs/php-proxy": 20,
-        "athlon1600/php-proxy-plugin-bundle": 20
+        "shirtjs/php-proxy-plugin-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-mbstring": "^7.2"
+    },
     "platform-dev": []
 }
