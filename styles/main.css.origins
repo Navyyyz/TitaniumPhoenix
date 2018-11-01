@@ -1,11 +1,11 @@
 img[alt*="www.freewebhostingarea.com"] {
     display: none;}
-code made by Titanumnetwork,
+code made by Titanumnetwork, 
 img[alt="Free Web Hosting"]{display:none;}
 
 img[alt*="www.000webhost.com"] {
     display: none;}
-code made by Titanumnetwork,
+code made by Titanumnetwork, 
 img[alt="www.000webhost.com"]{display:none;}
 
 #intro {
@@ -15,7 +15,7 @@ img[alt="www.000webhost.com"]{display:none;}
 
 img[alt*="www.freewebhostingarea.com"] {
     display: none;}
-code made by Titanumnetwork,
+code made by Titanumnetwork, 
 img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 
@@ -41,13 +41,13 @@ img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 img[alt*="www.freewebhostingarea.com"] {
     display: none;}
-code made by Titanumnetwork,
+code made by Titanumnetwork, 
 img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 
 .hm-gradient .full-bg-img {
-  background: rgba(120, 52, 135, 0.4);
-  background: linear-gradient(25deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.31) 100%);
+  background: rgba(42, 27, 161, 0.7);
+  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
 
 @media (max-width: 450px) {
